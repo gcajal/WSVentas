@@ -36,6 +36,7 @@ namespace WSVentas
                         builder.WithOrigins("*");
                     });
             });
+
             services.AddControllers();
         }
 
